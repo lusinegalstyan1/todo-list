@@ -6,10 +6,9 @@
       @close="toggleTaskModal"
       @taskSave="onTaskSave"
     />
-
     <v-row align="center" justify="center">
-      <v-col cols="auto">
-        <v-btn color="info" @click="toggleTaskModal">Add new task</v-btn>
+      <v-col cols="auto" class="pt-6">
+        <v-btn size="large" color="info" @click="toggleTaskModal">Add new task</v-btn>
       </v-col>
     </v-row>
   </v-container>
